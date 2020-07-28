@@ -1,17 +1,17 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Educação",
+      "link": "https://www.youtube.com/watch?v=3HVWWl03jSw",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Conteúdos da Robótica Educacional",
+        "url": "https://www.youtube.com/watch?v=3HVWWl03jSw"
       },
       "videos": [
         {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "url": "https://www.youtube.com/watch?v=3HVWWl03jSw"
         },
         {
           "titulo": "SEO com React",
@@ -44,11 +44,11 @@
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "DIY",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Faça você mesmo!",
+        "url": ""
       },
       "videos": [
         {
@@ -74,11 +74,11 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Curso de Arduino para iniciantes",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Módulo 1",
+        "url": ""
       },
       "videos": [
         {
@@ -122,11 +122,11 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Bate-Papos",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Conversas com especialistas",
+        "url": ""
       },
       "videos": [
         {
@@ -152,11 +152,11 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Maratonando",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Outros vídeos",
+        "url": ""
       },
       "videos": [
         {
