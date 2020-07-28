@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+  <Switch>
+  <Route path="/cadastro/video" component={CadastroVideo}/>
+  <Route path="/cadastro/categoria" component={CadastroCategoria}/>
+  <Route path="/" component={App} exact />
+  <Route component={() => (<div>Página 404</div>)}/>
+  </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
