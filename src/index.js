@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
+import ErrorPage from './pages/ErrorPage';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,7 +14,7 @@ ReactDOM.render(
   <Route path="/cadastro/video" component={CadastroVideo}/>
   <Route path="/cadastro/categoria" component={CadastroCategoria}/>
   <Route path="/" component={App} exact />
-  <Route component={() => (<div>Página 404</div>)}/>
+  <Route component={ErrorPage}/>
   </Switch>
   </BrowserRouter>,
   document.getElementById('root')
