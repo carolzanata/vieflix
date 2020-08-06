@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
-import capa from '../../assets/img/capa.png';
+import banner from '../../assets/img/banner.png';
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL
@@ -19,7 +19,7 @@ export default function BannerMain({
   const youTubeID = getYouTubeId(url);
 
   return (
-    <BannerMainContainer backgroundImage={capa}>
+    <BannerMainContainer backgroundImage={banner}>
       <ContentAreaContainer>
         <ContentAreaContainer.Item>
           <ContentAreaContainer.Title>
